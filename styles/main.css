@@ -1,0 +1,105 @@
+body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header{
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: 'Libre Franklin';
+}
+
+.nav_padding{
+    padding-top: 93px;
+}
+
+.jumbotron{
+    margin-top: 145px;
+    padding-bottom: 240px;
+}
+
+.jumbotron p:nth-child(3){
+    margin-top: 106px;
+}
+
+/* about */
+.padding-fix{
+    padding-top: 93px;
+    padding-bottom: 115px;
+}
+.text_gray{
+    color:#333;
+    font-size: 18px;
+}
+
+/* skills */
+.skills{
+    background-color: #FFFAF2;
+}
+.text-mr{
+    width: 145px;
+    margin-right: 65px;
+}
+.skills-name{
+    margin-bottom: 65px;
+}
+
+/* .skills-info{
+    width: 635px;
+} */
+/* progress ======================*/
+progress{
+    width: 65%;
+    height: 24px;
+    background: #C66C49;
+    color:#C66C49;
+}
+progress {
+    background: #F5D6AB;
+}
+/* Chrome */
+progress::-webkit-progress-bar {
+    background: #F5D6AB;
+}
+/* IE10 */
+progress {
+    color: #C66C49;
+}
+/* Firefox */
+progress::-moz-progress-bar {
+    background: #C66C49;
+}
+/* Chrome */
+progress::-webkit-progress-value {
+    background: #C66C49;
+}
+/* =============================== */
+
+/* Portfolio */
+.bot-fix{
+    position: relative;
+}
+.arrow-btn{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+
+/* MEDIA */
+@media screen and (max-width:768px) {
+
+    .nav_padding{
+        padding-top: 36px;
+    }
+    .jumbotron{
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+   
+}
